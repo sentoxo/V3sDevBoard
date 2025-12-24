@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 25.4 99.06)
+		(at 66.04 77.47)
 		(size 34.29 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "45d46a1f-7e0a-4188-86c1-c0c9d8acc8cb")
 		(property "Sheetname" "Connections"
-			(at 25.4 98.3484 0)
+			(at 66.04 76.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "connections.kicad_sch"
-			(at 25.4 122.5046 0)
+			(at 66.04 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,7 +48,7 @@
 		)
 	)
 	(sheet
-		(at 26.67 26.67)
+		(at 132.08 77.47)
 		(size 27.94 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64,7 +64,7 @@
 		)
 		(uuid "68c96adc-b146-438e-b3a7-b1f90739e044")
 		(property "Sheetname" "CPU"
-			(at 26.67 25.9584 0)
+			(at 132.08 76.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "cpu.kicad_sch"
-			(at 26.67 51.3846 0)
+			(at 132.08 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,7 +90,49 @@
 		)
 	)
 	(sheet
-		(at 26.67 64.77)
+		(at 189.23 78.74)
+		(size 35.56 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6b4bd028-5763-47d7-84d2-48e153976a13")
+		(property "Sheetname" "Peripherals"
+			(at 189.23 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 189.23 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "V3sDevBoard"
+				(path "/e07febb4-5889-4da3-b279-3be53a5a6756"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 29.21)
 		(size 30.48 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -106,7 +148,7 @@
 		)
 		(uuid "db464454-3dbd-4deb-9a60-5c9b845d384c")
 		(property "Sheetname" "Power"
-			(at 26.67 64.0584 0)
+			(at 132.08 28.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +157,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 26.67 81.8646 0)
+			(at 132.08 46.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)

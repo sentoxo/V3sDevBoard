@@ -625,6 +625,10 @@
     [
       "45d46a1f-7e0a-4188-86c1-c0c9d8acc8cb",
       "Connections"
+    ],
+    [
+      "6b4bd028-5763-47d7-84d2-48e153976a13",
+      "Peripherals"
     ]
   ],
   "text_variables": {}
