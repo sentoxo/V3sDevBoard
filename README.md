@@ -1,8 +1,8 @@
 # V3sDevBoard
-Educational project of first PCB desgin, SBC with linux built on allwinner V3s SoC.
-Work in progress.
-Phase 1 - Research and drawing schematics in kicad, 22-28dec
-Phase 2 - PCB design, 28-
+Educational project of first PCB desgin, SBC with linux built on allwinner V3s SoC.  
+Work in progress.  
+Phase 1 - Research and drawing schematics in kicad, 22-28dec  
+Phase 2 - PCB design, 28-  
 
 
 ## SYSTEM SPECIFICATIONS
