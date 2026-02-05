@@ -196,169 +196,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -918,143 +755,6 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:Fuse_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse_Small"
-				(at 0 1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fuse, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fuse_Small_0_1"
-				(rectangle
-					(start -1.27 0.508)
-					(end 1.27 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -2949,12 +2649,6 @@
 		(uuid "558160f4-b838-4532-ba0c-d127d296b45f")
 	)
 	(junction
-		(at 71.12 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62beb5d9-ecef-4767-b97a-89d3297eb8c5")
-	)
-	(junction
 		(at 92.71 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2977,12 +2671,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ce5c741-55e4-4efa-8b83-af9ec9beab3a")
-	)
-	(junction
-		(at 58.42 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e130eb1-c800-4323-be40-8159dd0dec9b")
 	)
 	(junction
 		(at 78.74 129.54)
@@ -3033,12 +2721,6 @@
 		(uuid "a2a4abba-0630-4fa7-93f7-ea3f0b516657")
 	)
 	(junction
-		(at 50.8 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a83a54d8-1382-4890-b811-9ca70d6e534d")
-	)
-	(junction
 		(at 102.87 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3069,22 +2751,10 @@
 		(uuid "e3c05452-67d3-4a0d-af2a-00aac8b41358")
 	)
 	(junction
-		(at 55.88 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e56ac17f-78de-4f5c-88c6-70e0b97aec0c")
-	)
-	(junction
 		(at 92.71 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9559423-c33b-4c7d-b55a-a2346f5106ea")
-	)
-	(junction
-		(at 58.42 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec0eea63-1b9c-4d21-879d-6fadb94034f0")
 	)
 	(junction
 		(at 113.03 49.53)
@@ -3098,12 +2768,6 @@
 		(color 0 0 0 0)
 		(uuid "f51bd9c3-c491-461d-8d65-9cf2c3907288")
 	)
-	(junction
-		(at 71.12 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ffd0e9fc-6e61-4dac-9f80-eb004cc2df4b")
-	)
 	(wire
 		(pts
 			(xy 39.37 48.26) (xy 39.37 49.53)
@@ -3113,16 +2777,6 @@
 			(type default)
 		)
 		(uuid "0147168e-b067-4e5c-b42a-1895064037ef")
-	)
-	(wire
-		(pts
-			(xy 48.26 181.61) (xy 45.72 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "018cd95d-c1db-454d-967b-5a4f07fe9d0a")
 	)
 	(wire
 		(pts
@@ -3226,16 +2880,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 184.15) (xy 48.26 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d95381f-dfbb-4d8d-9b83-513c4ec1caa9")
-	)
-	(wire
-		(pts
 			(xy 187.96 53.34) (xy 204.47 53.34)
 		)
 		(stroke
@@ -3306,16 +2950,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 184.15) (xy 58.42 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2eee8228-3f88-4ab4-8ff5-d68be031152e")
-	)
-	(wire
-		(pts
 			(xy 78.74 80.01) (xy 82.55 80.01)
 		)
 		(stroke
@@ -3353,16 +2987,6 @@
 			(type default)
 		)
 		(uuid "340d93f8-5353-4218-bd93-81f36df09583")
-	)
-	(wire
-		(pts
-			(xy 48.26 176.53) (xy 50.8 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37be02b5-59f0-423f-9f65-18a2768fe7c4")
 	)
 	(wire
 		(pts
@@ -3406,16 +3030,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 179.07) (xy 48.26 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4392adfe-1b26-46e9-8c73-d7a51fee781b")
-	)
-	(wire
-		(pts
 			(xy 92.71 50.8) (xy 92.71 49.53)
 		)
 		(stroke
@@ -3453,16 +3067,6 @@
 			(type default)
 		)
 		(uuid "494cac64-1ec7-4fb0-8a87-922f51051133")
-	)
-	(wire
-		(pts
-			(xy 45.72 179.07) (xy 48.26 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49b9cde5-1e76-45b3-93d5-6d3ab705f86c")
 	)
 	(wire
 		(pts
@@ -3806,16 +3410,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 176.53) (xy 58.42 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8fe56da-81fe-4eb9-9fd4-52ef41985c40")
-	)
-	(wire
-		(pts
 			(xy 205.74 41.91) (xy 208.28 41.91)
 		)
 		(stroke
@@ -3873,16 +3467,6 @@
 			(type default)
 		)
 		(uuid "b754b344-7bd4-4756-989d-48f9bd01e7ff")
-	)
-	(wire
-		(pts
-			(xy 50.8 176.53) (xy 55.88 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7a8f32f-855a-4bab-8fbf-9a5d7ab355f3")
 	)
 	(wire
 		(pts
@@ -4658,7 +4242,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 114.808 60.96 90)
 			(effects
 				(font
@@ -5128,6 +4712,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 229.87 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ec71aa2-5c8d-4162-b5c9-78ffeb6db7b8")
+		(property "Reference" "#PWR096"
+			(at 229.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 229.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 229.87 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e513bdcf-f976-4e15-baaf-d435b8091c74")
+		)
+		(instances
+			(project "V3sDevBoard"
+				(path "/e07febb4-5889-4da3-b279-3be53a5a6756/db464454-3dbd-4deb-9a60-5c9b845d384c"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 218.44 27.94 90)
 		(unit 1)
@@ -5462,6 +5112,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 251.46 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fd7474d-700d-4363-9866-a2c7eb070229")
+		(property "Reference" "#PWR097"
+			(at 251.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 251.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 251.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cde28713-c9e3-4cee-8c4d-bac48edc5f64")
+		)
+		(instances
+			(project "V3sDevBoard"
+				(path "/e07febb4-5889-4da3-b279-3be53a5a6756/db464454-3dbd-4deb-9a60-5c9b845d384c"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 219.71 92.71 180)
 		(unit 1)
@@ -5555,7 +5271,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 114.808 160.02 90)
 			(effects
 				(font
@@ -5942,72 +5658,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 208.28 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b2b86bd-27ec-46a7-8b78-c63f33f4acb0")
-		(property "Reference" "#PWR095"
-			(at 208.28 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 208.28 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 208.28 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ddcd4c9-c673-4300-bb06-7e137fbf7e5e")
-		)
-		(instances
-			(project "V3sDevBoard"
-				(path "/e07febb4-5889-4da3-b279-3be53a5a6756/db464454-3dbd-4deb-9a60-5c9b845d384c"
-					(reference "#PWR095")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 177.8 92.71 180)
 		(unit 1)
@@ -6237,7 +5887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 111.252 152.4 90)
 			(effects
 				(font
@@ -6274,74 +5924,6 @@
 			(project "V1sDevBoard"
 				(path "/e07febb4-5889-4da3-b279-3be53a5a6756/db464454-3dbd-4deb-9a60-5c9b845d384c"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse_Small")
-		(at 53.34 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53615da5-8bcd-409d-bc77-20266b8479c1")
-		(property "Reference" "F1"
-			(at 53.34 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PCB fuse"
-			(at 53.34 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 53.34 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse, small symbol"
-			(at 53.34 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8876f905-1885-4168-a5d2-ae45069e3e0b")
-		)
-		(pin "1"
-			(uuid "d4917256-3c3a-48e6-a597-bd12983ecde1")
-		)
-		(instances
-			(project ""
-				(path "/e07febb4-5889-4da3-b279-3be53a5a6756/db464454-3dbd-4deb-9a60-5c9b845d384c"
-					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -7172,76 +6754,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 71.12 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8025f45f-21af-48d4-83bc-718babe86760")
-		(property "Reference" "C10"
-			(at 74.93 178.1809 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "860u"
-			(at 74.93 180.7209 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 72.0852 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 71.12 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f156e3c-d73e-4450-8b36-777b2dddd6b9")
-		)
-		(pin "2"
-			(uuid "5f5c99dc-436f-48cc-8473-97e3d809baad")
-		)
-		(instances
-			(project ""
-				(path "/e07febb4-5889-4da3-b279-3be53a5a6756/db464454-3dbd-4deb-9a60-5c9b845d384c"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 208.28 100.33 0)
 		(unit 1)
@@ -7664,140 +7176,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 186.69 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95e81ef8-7ea7-4b8b-a0cc-091fe650b1a7")
-		(property "Reference" "#PWR094"
-			(at 186.69 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 186.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 186.69 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f5f7b68-368f-4b6a-b737-0673ba4fdfbd")
-		)
-		(instances
-			(project "V3sDevBoard"
-				(path "/e07febb4-5889-4da3-b279-3be53a5a6756/db464454-3dbd-4deb-9a60-5c9b845d384c"
-					(reference "#PWR094")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 40.64 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98dcdd7e-4959-4fd2-a1b3-3a65f0cbe9f5")
-		(property "Reference" "J10"
-			(at 41.275 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Power"
-			(at 41.275 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 40.64 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 40.64 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b55b18d0-2c96-4475-9b98-1b93971b2389")
-		)
-		(pin "2"
-			(uuid "f96c4963-d04c-4377-967e-7d1906518263")
-		)
-		(instances
-			(project ""
-				(path "/e07febb4-5889-4da3-b279-3be53a5a6756/db464454-3dbd-4deb-9a60-5c9b845d384c"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 229.87 100.33 0)
 		(unit 1)
@@ -8069,72 +7447,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 229.87 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4a5ba35-8021-4c57-81b0-040a96b77223")
-		(property "Reference" "#PWR096"
-			(at 229.87 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 229.87 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 229.87 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81e0d70d-be3f-4d2c-b2e2-022798c6fe3b")
-		)
-		(instances
-			(project "V3sDevBoard"
-				(path "/e07febb4-5889-4da3-b279-3be53a5a6756/db464454-3dbd-4deb-9a60-5c9b845d384c"
-					(reference "#PWR096")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 113.03 110.49 180)
 		(unit 1)
@@ -8162,7 +7474,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 114.808 110.49 90)
 			(effects
 				(font
@@ -8298,7 +7610,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 111.252 102.87 90)
 			(effects
 				(font
@@ -8469,6 +7781,72 @@
 			(project "V1sDevBoard"
 				(path "/e07febb4-5889-4da3-b279-3be53a5a6756/db464454-3dbd-4deb-9a60-5c9b845d384c"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 208.28 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad15d26f-09f8-4c77-8d8a-f033770e4ec1")
+		(property "Reference" "#PWR095"
+			(at 208.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 208.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 208.28 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee81bd2c-a377-4566-8b97-c952a86f4015")
+		)
+		(instances
+			(project "V3sDevBoard"
+				(path "/e07febb4-5889-4da3-b279-3be53a5a6756/db464454-3dbd-4deb-9a60-5c9b845d384c"
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -8770,7 +8148,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 235.458 54.61 90)
 			(effects
 				(font
@@ -9015,6 +8393,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 186.69 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5408960-b7b8-4fea-8036-d551c5e4cde9")
+		(property "Reference" "#PWR094"
+			(at 186.69 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 186.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 186.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b59a9684-bb0b-4706-9bb5-aaa88c12aa3e")
+		)
+		(instances
+			(project "V3sDevBoard"
+				(path "/e07febb4-5889-4da3-b279-3be53a5a6756/db464454-3dbd-4deb-9a60-5c9b845d384c"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 67.31 121.92 0)
 		(unit 1)
@@ -9174,7 +8618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 111.252 53.34 90)
 			(effects
 				(font
@@ -9775,72 +9219,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 251.46 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3339be1-c02c-4e5c-9a96-62dbb0e429d8")
-		(property "Reference" "#PWR097"
-			(at 251.46 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 251.46 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 251.46 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c96efbc1-6622-426c-99ae-d0438a0d65ad")
-		)
-		(instances
-			(project "V3sDevBoard"
-				(path "/e07febb4-5889-4da3-b279-3be53a5a6756/db464454-3dbd-4deb-9a60-5c9b845d384c"
-					(reference "#PWR097")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 121.92 49.53 0)
 		(unit 1)
@@ -10070,7 +9448,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 131.572 60.96 90)
 			(effects
 				(font
