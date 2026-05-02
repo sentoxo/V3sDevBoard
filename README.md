@@ -1,10 +1,7 @@
 # V3sDevBoard
 Educational project of first PCB desgin, SBC with linux built on allwinner V3s SoC.  
-Work in progress.  
-Phase 1 - Research and drawing schematics in kicad, 22-30dec  
-Phase 2 - PCB design, 28.01-05.02
-
-![image](https://github.com/sentoxo/V3sDevBoard/blob/main/photo.png)
+Work in progress.
+![image](https://github.com/sentoxo/V3sDevBoard/blob/main/board.jpg)
 
 ## SYSTEM SPECIFICATIONS
 =====================
@@ -35,3 +32,9 @@ Phase 2 - PCB design, 28.01-05.02
 ### POWER & SOFTWARE:
 - REGULATION: DC-DC converters for 3.3V, 1.8V, 1.2V
 - OPERATING SYSTEM: Powered by custom Mainline Linux
+
+=====================
+## Errata for revA
+- Ther was mistake in SDIO for SDCard. Swaped data lines.
+- RTC didn't have power without battery.
+![image](https://github.com/sentoxo/V3sDevBoard/blob/main/photo.png)
