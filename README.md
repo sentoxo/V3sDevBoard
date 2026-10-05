@@ -1,7 +1,7 @@
 # V3sDevBoard
 Educational project of first PCB desgin, SBC with linux built on allwinner V3s SoC.  
-Work in progress.
-![image](https://github.com/sentoxo/V3sDevBoard/blob/main/board.jpg)
+
+![image](https://github.com/sentoxo/V3sDevBoard/blob/main/board2.jpg)
 
 ## SYSTEM SPECIFICATIONS
 =====================
@@ -37,4 +37,6 @@ Work in progress.
 ## Errata for revA
 - Ther was mistake in SDIO for SDCard. Swaped data lines.
 - RTC didn't have power without battery.
+
+
 ![image](https://github.com/sentoxo/V3sDevBoard/blob/main/photo.png)
