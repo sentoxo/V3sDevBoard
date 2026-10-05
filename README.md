@@ -1,7 +1,7 @@
 # V3sDevBoard
 Educational project of first PCB desgin, SBC with linux built on allwinner V3s SoC.  
 
-![image](https://github.com/sentoxo/V3sDevBoard/blob/main/board2.jpg)
+![image](https://github.com/sentoxo/V3sDevBoard/blob/main/board2.jpeg)
 
 ## SYSTEM SPECIFICATIONS
 =====================
